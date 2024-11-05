@@ -19,7 +19,8 @@ The application uses SQLite as the backend database to store information.
 
 ### Running the Application
 
-1. Clone the repository or download the code files.
+1. Clone the repository using following command:
+   - git clone https://github.com/Ayaans03/Fictional-Chocolate-House.git
 2. Navigate to the project directory.
 3. Run the application with the following command:
    - python app.py
