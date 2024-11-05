@@ -1,11 +1,11 @@
-# Use official Python image from Docker Hub
+# Using official Python image from Docker
 FROM python:3.9-slim
 
-# Set working directory in the container
+# Seting working directory in the Docker container
 WORKDIR /app
 
-# Copy all files into the container
+# Coping all files into the Docker container
 COPY . .
 
-# Command to run the Flask app
+# Command to run app.py
 CMD ["python", "app.py"]
