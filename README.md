@@ -25,6 +25,7 @@ The application uses SQLite as the backend database to store information.
 3. Run the application with the following command:
    - python app.py
 4. Docker based build and run use the following commands:
+   - Open Docker desktop before running the below commands
    - docker build -t chocolatehouse .
    - docker run -it chocolatehouse
     
